@@ -28,6 +28,7 @@ requirements:
     - r-mass
     - r-rcpp >=0.11.0
     - r-class
+    - r-geometry
     - r-robustbase
     - r-sfsmisc
     - posix                # [win]
@@ -40,6 +41,7 @@ requirements:
     - r-mass
     - r-rcpp >=0.11.0
     - r-class
+    - r-geometry
     - r-robustbase
     - r-sfsmisc
     - libgcc  # [not win]
