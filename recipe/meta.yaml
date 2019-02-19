@@ -1,4 +1,4 @@
-{% set version = '1.3.4' %}
+{% set version = "1.3.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ddalpha_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ddalpha/ddalpha_{{ version }}.tar.gz
-  sha256: 41ba9952deb2e81713f2e308357d3b7adfe348135ba7e3c94c347db5e0029699
+  sha256: 40ade3dbb098675ea948a15f9648f436f46e7e82ff6ddd7f31eec1470285203e
 
 build:
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
