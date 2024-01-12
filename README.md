@@ -3,6 +3,7 @@ About r-ddalpha-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ddalpha-feedstock/blob/main/LICENSE.txt)
 
+
 About r-ddalpha
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=ddalpha
 Package license: GPL-2.0-only
 
 Summary: Contains procedures for depth-based supervised learning, which are entirely non-parametric, in particular the DDalpha-procedure (Lange, Mosler and Mozharovskyi, 2014 <doi:10.1007/s00362-012-0488-4>). The training data sample is transformed by a statistical depth function to a compact low-dimensional space, where the final classification is done. It also offers an extension to functional data and routines for calculating certain notions of statistical depth functions. 50 multivariate and 5 functional classification problems are included.
+
 About r-ddalpha
 ---------------
 
@@ -188,7 +190,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
