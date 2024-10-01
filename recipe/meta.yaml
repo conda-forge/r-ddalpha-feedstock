@@ -1,4 +1,4 @@
-{% set version = "1.3.15" %}
+{% set version = "1.3.16" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ddalpha_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ddalpha/ddalpha_{{ version }}.tar.gz
-  sha256: 0c2794a4e88cef44d96dc980ec2f091d66b3c83995760297b623e5285878feed
+  sha256: 3990f8649ffae227233bc0156d43b727486197eeb73a3200019c441a41516984
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
